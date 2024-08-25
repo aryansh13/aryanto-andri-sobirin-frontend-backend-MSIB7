@@ -18,17 +18,17 @@ function hitungJumlahDiagonal(matriks) {
 
 // Tes fungsi
 let matriks1 = [
-  [8, 2, 7],
-  [4, 9, 1],
-  [5, 3, 6],
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
 let matriks2 = [
-  [12, 3, 4, 8],
-  [7, 15, 11, 2],
-  [9, 6, 14, 5],
-  [1, 10, 13, 16],
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
+  [13, 14, 15, 16],
 ];
 
-console.log("Hasil matriks 3x3:", hitungJumlahDiagonal(matriks1)); //Hasil 35
-console.log("Hasil matriks 4x4:", hitungJumlahDiagonal(matriks2)); //Hasil 83
+console.log("Hasil matriks 3x3:", hitungJumlahDiagonal(matriks1)); // Hasil 25
+console.log("Hasil matriks 4x4:", hitungJumlahDiagonal(matriks2));// Hasil 68
